@@ -50,7 +50,7 @@ There were mentions of **crochet** lib, but only for unsuccessful tests.
 ## overwrite urls
 Since I didn't want to commit the URLs used in this project (not only because I could, and probably will, change searching pages, but also because I don't think it is very polite of me to expose this brazillian site randomly - if you want the correct links just email me!) it will be necessary to change the placeholders in the project.
 
-The placeholders are (just `ctrl+f` in the project)
+The placeholders are the follow (just `ctrl+f` in the project)
 - `temp_url` (temporary url used to download images, only one request is done to this page, and it can be *any* page)
 - `your_url` (url used to start the request of the spider)
 - `repo_url` (repository url to download images from)
