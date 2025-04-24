@@ -10,12 +10,6 @@ This project was created only to keep a history of changes done to any of the fi
 
 The purpose of this scrapper is to look up and fetch information from some (very) specific pages that will be used in a future API (hopefully)
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 # spiders
 There are (currently) three spiders in this project
 
