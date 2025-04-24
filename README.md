@@ -55,7 +55,7 @@ The placeholders are the follow (just `ctrl+f` in the project)
 - `your_url` (url used to start the request of the spider)
 - `repo_url` (repository url to download images from)
 
-(yes, I do intend to put some global variables, but, as we already stated, I'm kinda lazy)
+(yes, I do intend to put some global variables, but for the current state of this project it is not necessary)
 
 # running
 As I already kinda indicated you can run each spider separetelly (the spected order is index > edition > download_images), I did want some automation to run it *all* in some cases (like first fetch)
