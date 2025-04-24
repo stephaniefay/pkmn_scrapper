@@ -1,7 +1,7 @@
 ### pkmn_scrapper
 
 > [!CAUTION]
-> Disclaimer: This repository is in no way, shape or form an example (or demo) on how to do a good crawler. I'm actually not sure of what I'm doing, but here we are
+> This repository is in no way, shape or form an example (or demo) on how to do a good crawler. I'm actually not sure of what I'm doing, but here we are
 
 This project was created only to keep a history of changes done to any of the files, as I'm trying to learn how to properly do a crawling bot (before it can be deployed eventually)
 
@@ -68,7 +68,7 @@ The first problem was with `ReactorNotRestartable()` because I was using a `Craw
 
 Turns out that aproach creates **n** threads (and **n** concurrently executions) which Windows promply warned me that it hated it (and, I mean, fair. I was opening more than 100+ executions) and I changed to a queue approach (and thought myself a genious for that!) but Windows also didn't like to have a master process opening n child processes.
 
-And, mind I add, I never intended to have it executing concurrently, I actually wanted something more like `do A > do B > iterate doing C > do D`, so I was desperate searching for *other* solutions, ending with a .bat that executes on its own and everything works (it is on the project! is the run.bat, and it should be executed from inside the directory he is currently on)
+And, mind I add, I never intended to have it executing concurrently, I actually wanted something more like `do A > do B > iterate doing C > do D`, so I was desperate searching for *other* solutions, ending with a .bat that executes on its own and everything works (it is on the project! is the `run.bat`, and it should be executed from inside the directory he is currently on)
 
 And that's it.
 
