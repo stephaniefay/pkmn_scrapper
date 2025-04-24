@@ -14,4 +14,4 @@ for %%f in ("%CD%\extracted\*.csv") do (
     )
 )
 
-CALL python -m scrapy crawl download_images -a file_name=C:\Users\steph\Projects\Projetos\pkmn_scrapper\pkmn_scrapper\extracted\index\editions.csv
+CALL python -m scrapy crawl download_images -a file_name=C:\Users\<your_user_and_path>\pkmn_scrapper\pkmn_scrapper\extracted\index\editions.csv
