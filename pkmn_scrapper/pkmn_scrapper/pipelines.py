@@ -11,7 +11,7 @@ from scrapy.pipelines.images import ImagesPipeline
 from scrapy.utils.httpobj import urlparse_cached
 
 
-class CustomNameForImagesPipeline(ImagesPipeline):
+class DownloadImagePipeline(ImagesPipeline):
     def file_path(self, request, response=None, info=None, *, item=None):
         url_raw = request.url
         url_raw.replace("https://", "", 1)
