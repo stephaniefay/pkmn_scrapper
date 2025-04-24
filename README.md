@@ -1,5 +1,3 @@
-### pkmn_scrapper
-
 > [!CAUTION]
 > This repository is in no way, shape or form an example (or demo) on how to do a good crawler. I'm actually not sure of what I'm doing, but here we are
 
@@ -70,6 +68,6 @@ Turns out that aproach creates **n** threads (and **n** concurrently executions)
 
 And, mind I add, I never intended to have it executing concurrently, I actually wanted something more like `do A > do B > iterate doing C > do D`, so I was desperate searching for *other* solutions, ending with a .bat that executes on its own and everything works (it is on the project! is the `run.bat`, and it should be executed from inside the directory he is currently on)
 
-And that's it.
+And that's it. This project was actually made (at least the first start) in a day and a half, so please do not have big expectations on *anything* you'll find here.
 
 I don't know if this will help someone (actually, I hope no one finds this, because it is a mess), but it will help me when I inevitably forget what I've done when I pick up this project again after a couple of months.
